@@ -13,8 +13,18 @@
 // console.log(typeof siddu);
 
 // with return
-function sumOf(a,b){
-    return a +b;
+// function sumOf(a,b){
+//     return a +b;
+// }
+//  let result = sumOf(5,5);
+// console.log(result)
+
+total = 0;
+function siddu(min,max){
+    for(i=min; i<=max; i++){
+  total = total + i;
+    }
+    return total;
 }
- let result = sumOf(5,5);
-console.log(result)
+siddu(1,3);
+console.log(total);
