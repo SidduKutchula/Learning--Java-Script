@@ -1,6 +1,6 @@
 let siddu = "Siddu baby";
 for(let char of siddu){
-    if(char === "b"){
+    if(char === "d"){
         break;
     }
     else{
